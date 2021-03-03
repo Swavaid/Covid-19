@@ -11,7 +11,7 @@
 1.Constants.java
 ----------------
 
-'''Java
+'''java
 public class Constants {
     //初始感染数量
     public static int ORIGINAL_COUNT=50;
@@ -27,6 +27,8 @@ public class Constants {
     public static float u=-0.99f;
 }
 '''
+
+Constants类中定义了项目的一系列常量参数其中。
 
 3.将城市中人群的种类分为三种，健康（白色），潜伏期（黄色）和患者（红色）。人群与人的流动意向均按照正态分布模拟；
 
