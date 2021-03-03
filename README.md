@@ -1,14 +1,34 @@
 1.代码出处
 ==========
 
-本代码参考改造于CSDN咨询https://blog.csdn.net/csdnnews/article/details/104218200 ；
+本代码参考改造于“CSDN咨询”https://blog.csdn.net/csdnnews/article/details/104218200 ；
+
+参考2020年2月6日由人民日报公众号转发了一则由Ele实验室制作的疫情传播仿真程序。
 
 2.代码思路
 ==========
 
-1.采用可视化的窗口来实现疫情传播的模拟；
+1.Constants.java
+----------------
 
-2.将城市中人群的种类分为三种，健康（白色），潜伏期（黄色）和患者（红色）。人群与人的流动意向均按照正态分布模拟；
+'''Java
+public class Constants {
+    //初始感染数量
+    public static int ORIGINAL_COUNT=50;
+    //传播率，可通过戴口罩降低
+    public static float BROAD_RATE = 0.2f;
+    //潜伏时间
+    public static float SHADOW_TIME = 140;
+    //医院收治响应时间
+    public static int HOSPITAL_RECEIVE_TIME=10;
+    //医院床位
+    public static int BED_COUNT=1000;
+    //流动意向平均值，限制出行，减少人员流动
+    public static float u=-0.99f;
+}
+'''
+
+3.将城市中人群的种类分为三种，健康（白色），潜伏期（黄色）和患者（红色）。人群与人的流动意向均按照正态分布模拟；
 
 3.通过设置一系列的参数实现对病毒控制的不同手段，其中包括病毒的传播概率（可通过戴口罩、保持社交距离而降低），医院所能容纳患者的隔离病床数目（参照我国建立的方舱医院及雷神山火神山医院）以及人口流动意向平均值（减少不必要的外出和聚会）；
 
