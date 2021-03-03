@@ -571,7 +571,17 @@ public class MyPanel extends JPanel implements Runnable {
 }
 ```
 
-MyPanel类用来控制GUI图形界面，继承JPanel类并实现Runnable接口进行多线程操作
+MyPanel类用来控制GUI图形界面，继承JPanel类并实现Runnable接口进行多线程操作；
+
+`pIndex`变量获取链表中对应索引的Person对象；
+
+Mypanel构造器初始化窗口背景颜色；
+
+重写的`paint`方法依次绘制医院绿色矩形边框、初始化PersonPool后遍历people链表中的每一个点，按照不同的感染状态设置颜色，调用`update`方法完成所有点的信息更新，调用`fillOval`方法绘制圆点；
+
+遍历结束后，`pIndex`值归零。
+
+重写的`run`方法在线程暂停100ms后重绘界面，也就是说刷新间隔为100ms
 
 10.`Main.java`
 --------------
