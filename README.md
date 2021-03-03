@@ -215,7 +215,7 @@ public class PersonPool {
 }
 ```
 
-PersonPool类用标准正态分布模型人群与人的流动意向均按照正态分布模拟；
+PersonPool类用标准正态分布模型模拟人群与人的流动意向；
 
 新建由Person类的实例构成的链表及链表返回方法，后续把所有“人”都保存进来；
 
