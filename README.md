@@ -27,7 +27,7 @@ public class Constants {
     public static float u=-0.99f;
 }
 ```
-Constants类中定义了项目的一系列常量参数其中。
+Constants类中定义了项目的一系列常量参数。
 
 2.`city,java`
 -----------
