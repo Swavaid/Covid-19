@@ -619,15 +619,18 @@ public class Main {
 
 1.病毒爆发初期，人员自由流动，无佩戴口罩的习惯，也没有专门的隔离医院：
 
-![疫情初期](https://user-images.githubusercontent.com/77970177/109767594-bca3ea00-7c32-11eb-8757-854efeb68c27.jpg)
+![疫情初期](https://user-images.githubusercontent.com/77970177/109804560-57192300-7c5d-11eb-8961-4568edfb039c.png)
+
 
 2.当意识到疫情的严重性，国家建立了隔离医院后，疫情在一定程度上得到了控制，但当隔离病床注满后，疫情将再次变得不可控：
 
-![仅建造医院](https://user-images.githubusercontent.com/77970177/109769243-e3fbb680-7c34-11eb-9e47-5da4c9f06d95.jpg)
+![仅建造医院](https://user-images.githubusercontent.com/77970177/109804605-639d7b80-7c5d-11eb-9de7-753b84e6893c.png)
+
 
 3.当每一个都意识到疫情的严重性，并减少不必要的外出且外出佩戴口罩时，疫情最终得到了有效地控制：
 
-![减少流动](https://user-images.githubusercontent.com/77970177/109771476-cda32a00-7c37-11eb-9b3a-63cb88e82158.jpg)
+![减少流动](https://user-images.githubusercontent.com/77970177/109804640-70ba6a80-7c5d-11eb-8111-46e0aa96df75.png)
+
 
 
 
