@@ -27,8 +27,40 @@ public class Constants {
     public static float u=-0.99f;
 }
 ```
-
 Constants类中定义了项目的一系列常量参数其中。
+
+2.city,java
+-----------
+
+```java
+public class City {
+    private int centerX;
+    private int centerY;
+
+    public City(int centerX, int centerY) {
+        this.centerX = centerX;
+        this.centerY = centerY;
+    }
+
+    public int getCenterX() {
+        return centerX;
+    }
+
+    public void setCenterX(int centerX) {
+        this.centerX = centerX;
+    }
+
+    public int getCenterY() {
+        return centerY;
+    }
+
+    public void setCenterY(int centerY) {
+        this.centerY = centerY;
+    }
+}
+```
+
+
 
 3.将城市中人群的种类分为三种，健康（白色），潜伏期（黄色）和患者（红色）。人群与人的流动意向均按照正态分布模拟；
 
