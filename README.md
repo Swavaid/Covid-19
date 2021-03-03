@@ -21,3 +21,13 @@
 
 ![疫情初期](https://user-images.githubusercontent.com/77970177/109767594-bca3ea00-7c32-11eb-8757-854efeb68c27.jpg)
 
+2.当意识到疫情的严重性，国家建立了隔离医院后，疫情在一定程度上得到了控制，但当隔离病床注满后，疫情将再次变得不可控：
+
+![仅建造医院](https://user-images.githubusercontent.com/77970177/109769243-e3fbb680-7c34-11eb-9e47-5da4c9f06d95.jpg)
+
+
+
+
+
+
+
