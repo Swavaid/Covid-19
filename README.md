@@ -25,6 +25,10 @@
 
 ![仅建造医院](https://user-images.githubusercontent.com/77970177/109769243-e3fbb680-7c34-11eb-9e47-5da4c9f06d95.jpg)
 
+3.当每一个都意识到疫情的严重性，并减少不必要的外出且外出佩戴口罩时，疫情最终得到了有效地控制：
+
+![减少流动](https://user-images.githubusercontent.com/77970177/109771476-cda32a00-7c37-11eb-9b3a-63cb88e82158.jpg)
+
 
 
 
