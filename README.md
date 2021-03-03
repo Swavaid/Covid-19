@@ -11,7 +11,7 @@
 1.Constants.java
 ----------------
 
-'''java
+```java
 public class Constants {
     //初始感染数量
     public static int ORIGINAL_COUNT=50;
@@ -26,7 +26,7 @@ public class Constants {
     //流动意向平均值，限制出行，减少人员流动
     public static float u=-0.99f;
 }
-'''
+```
 
 Constants类中定义了项目的一系列常量参数其中。
 
